@@ -1,3 +1,5 @@
+Options Includes
+AllowOverride All
 RewriteEngine On
 
 # neither a file nor a directory
