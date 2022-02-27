@@ -32,8 +32,7 @@ $router->get('/blog/actualizar', [BlogController::class, 'actualizar']);
 $router->post('/blog/actualizar', [BlogController::class, 'actualizar']);
 $router->post('/blog/eliminaradminpropiedades', [BlogController::class, 'eliminar']);
 
-// $router->get('/', [PaginasController::class, 'index']);
-$router->get('/', [PaginasController::class, 'nosotros']);
+$router->get('/', [PaginasController::class, 'index']);
 $router->get('/nosotros', [PaginasController::class, 'nosotros']);
 $router->get('/anuncios', [PaginasController::class, 'propiedades']);
 $router->get('/anuncio', [PaginasController::class, 'propiedad']);
