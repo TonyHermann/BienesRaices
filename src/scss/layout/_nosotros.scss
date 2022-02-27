@@ -1,0 +1,14 @@
+.contenido-nosotros {
+    @include grid(2, 2rem);
+    .contenido-nosotros-texto {
+        display: flex;
+        flex-direction: column;
+        h3 {
+            margin: 1rem;
+        }
+    }
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+    }
+}

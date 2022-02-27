@@ -1,0 +1,23 @@
+.cards {
+    @include grid(3, 2rem);
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    h3 {
+        margin: 1rem;
+    }
+}
+
+.icono {
+    img {
+        height: 10rem;
+    }
+}

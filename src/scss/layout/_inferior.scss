@@ -1,0 +1,53 @@
+.seccion-inferior {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.blog {
+    @include telefono {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.entrada {
+    @include telefono {
+        display: flex;
+        flex-direction: column;
+    }
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    picture {
+        max-width: 80rem;
+        cursor: pointer;
+    }
+    .texto-entrada {
+        h4, p, span, a {
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+            color: $negro;
+        }
+        h4 {
+            &::after {
+                content: '';
+                display: block;
+                width: 15rem;
+                height: 0.5rem;
+                background-color: $verde;
+            }
+        }
+        span {
+            color: $amarillo;
+            cursor: pointer; 
+        }
+    }
+}

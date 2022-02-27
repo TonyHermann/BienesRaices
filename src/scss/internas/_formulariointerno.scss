@@ -1,0 +1,48 @@
+.contenedor-formulario {
+    width: 100%;
+
+}
+
+.formulario-moderno {
+    border-radius: 1.5rem;
+    background-color: rgb(255, 255, 255);;
+    padding: 2rem;
+    fieldset {
+        border-color: rgb(219, 236, 216);
+        border-radius: 0.5rem;
+        border-width: 0.2rem;
+        
+        legend {
+            font-style: italic;
+            padding: 1rem;
+            font-weight: $delgada;
+        
+            
+        }
+        display: flex;
+        flex-direction: column;
+        label, p {
+            font-weight: $regular;
+            color: rgba(55,65,81);
+            margin-bottom: 1rem;
+        }
+        input {
+            margin-bottom: 2rem;
+            height: 4rem;
+            border-style: solid;
+            padding-left: 1rem;
+            border-radius: 0.5rem;
+            border-color: rgba(209,213,219);
+        }
+    }
+}
+
+
+.fieldsetoff {
+    fieldset {
+        border-width: 0rem;
+        legend {
+            display: none;
+        }
+    }
+}

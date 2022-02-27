@@ -1,0 +1,63 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    line-height: 1.2;
+}
+p {
+    color: $negro;
+    font-size: 2rem;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.seccion {
+    margin-top: $separacion;
+    margin-bottom: $separacion;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture {
+    width: 100%;
+    display: block;
+    .imagen-small {
+        max-width: 30rem;
+    }
+}
+
+h1, h2, h3 {
+    font-family: $fuente_principal;
+    margin: $separacion;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+

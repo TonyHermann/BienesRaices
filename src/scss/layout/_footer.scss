@@ -1,0 +1,17 @@
+footer {
+    background-color: $grisOscuro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    p {
+        margin-bottom: 3rem;
+        color: $blanco;
+    }
+    @include telefono {
+        ul {
+            display: none;
+        }
+    }
+}
+

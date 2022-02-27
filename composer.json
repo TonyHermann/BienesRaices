@@ -1,0 +1,22 @@
+{
+    "name": "alejo/bienesraices",
+    "description": "Proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tony Hermann",
+            "email": "alejoh.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "Controllers\\" : "./controllers",
+            "MVC\\" : "./"
+        }
+    }
+}

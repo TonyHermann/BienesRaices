@@ -1,0 +1,93 @@
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    border: none;
+    border-radius: 1rem;
+    picture {
+        //max-width: 40rem;
+        img {
+            width: 40rem;
+            height: 30rem;
+            object-fit: cover;
+            @include telefono {
+                object-fit: cover;
+            }
+            border: none;
+            border-radius: 1rem;
+        }
+    }
+    background-color: $blanco;
+}
+
+.contenido__anuncio {
+    display: grid;
+    padding: 1rem;
+    height: auto;
+    h3 {
+        padding: 1rem;
+        margin: 1rem;
+        font-weight: $regular;
+    }
+    p {
+        margin: 0;
+        font-weight: $delgada;
+    }
+    .descripcion {
+        @include telefono {
+            text-align: center;
+            min-width: auto;
+            min-height: unset;
+            max-height: unset;
+            margin: 1rem;
+        }
+        text-align: center;
+        min-width: auto;
+        min-height: 252px;
+        max-height: 252px;
+        overflow: scroll;
+        margin: 1rem;
+    }
+    .precio {
+        color: $verde;
+        font-size: 3rem;
+    }
+}
+
+
+.precio {
+    color: $verde;
+    font-size: 3rem;
+}
+
+.iconos__caracteristicas {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    font-weight: $bold;
+
+    li {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+        img {
+            max-width: 3.5rem;
+        }
+    }
+}
+
+.contenedor__anuncios {
+    @include grid(3, 3rem);
+    @include telefono {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    @include tablet {
+        h3 {
+            margin: 0;
+        }
+    }
+}

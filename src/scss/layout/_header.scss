@@ -1,0 +1,38 @@
+.no-webp .inicio {
+    background-image: url('../img/header.jpg');
+}
+
+.webp .inicio {
+    background-image: url('../img/header.webp');
+}
+
+header {
+    min-height: 70rem;
+    flex-direction: column;
+    .contenido_header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+        max-width: 50rem;
+        h1, h2 {
+            padding-left: 3rem;
+            text-align: left;
+            color: $blanco;
+            font-weight: $bold;
+            font-size: 3rem;
+            margin: 0;
+            
+        }
+        transform: translateY(45vh);
+    }
+}
+
+.simpleheader {
+    min-height: initial;
+}
+
+.titulo {
+    color: $blanco;
+    
+}

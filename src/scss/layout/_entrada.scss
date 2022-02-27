@@ -1,0 +1,22 @@
+.entrada-contenido-texto {
+    h4, p, span, a {
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        color: $negro;
+    }
+    span {
+        color: $amarillo;
+        cursor: pointer; 
+    }
+}
+
+.entrada-contenido {
+    picture {
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    
+    
+}
