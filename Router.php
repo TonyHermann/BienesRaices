@@ -24,28 +24,34 @@ class Router {
         $rutas_protegidas = ['/admin', '/propiedades/crear', '/propiedades/actualizar', '/propiedades/eliminar', '/vendedores/crear', '/vendedores/actualizar', '/vendedores/eliminar/', '/blog/crear', '/blog/actualizar', '/blog/eliminar'];
 
 
-        $urlActual = $_SERVER['REQUEST_URI'] ?? '/';
+        $urlActual = $_SERVER['REDIRECT_URL'] ?? '/';
         $metodo = $_SERVER['REQUEST_METHOD'];
 
-        echo "<pre>";
+        // echo "<pre>";
 
-        echo(var_dump($this->rutasGET));
+        // echo(var_dump($this->rutasGET));
 
-        echo "</pre>";
+        // echo "</pre>";
 
-        echo "<pre>";
+        // echo "<pre>";
 
-        echo(var_dump($this->rutasPOST));
+        // echo(var_dump($this->rutasPOST));
 
-        echo "</pre>";
+        // echo "</pre>";
 
-        echo "<pre>";
+        // echo "<pre>";
 
-        echo($urlActual);
+        // echo($urlActual);
 
-        echo "</pre>";
+        // echo "</pre>";
 
-        echoPre($_SERVER);
+        // echo "<pre>";
+
+        // echo($_SERVER['PATH_INFO']);
+
+        // echo "</pre>";
+
+        // echoPre($_SERVER);
 
 
         if($metodo === 'GET') {
