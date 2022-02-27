@@ -45,6 +45,8 @@ class Router {
 
         echo "</pre>";
 
+        echoPre($_SERVER);
+
 
         if($metodo === 'GET') {
             $fn = $this->rutasGET[$urlActual] ?? NULL;
