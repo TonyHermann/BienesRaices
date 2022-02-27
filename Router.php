@@ -25,8 +25,26 @@ class Router {
 
 
         $urlActual = $_SERVER['REQUEST_URI'] ?? '/';
-        echoPre($_SERVER);
         $metodo = $_SERVER['REQUEST_METHOD'];
+
+        echo "<pre>";
+
+        echo($this->rutasGET);
+
+        echo "</pre>";
+
+        echo "<pre>";
+
+        echo($this->rutasPOST);
+
+        echo "</pre>";
+
+        echo "<pre>";
+
+        echo($urlActual);
+
+        echo "</pre>";
+
 
         if($metodo === 'GET') {
             $fn = $this->rutasGET[$urlActual] ?? NULL;
