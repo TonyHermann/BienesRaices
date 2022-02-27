@@ -29,13 +29,13 @@ class Router {
 
         echo "<pre>";
 
-        echo($this->rutasGET);
+        echo(var_dump($this->rutasGET));
 
         echo "</pre>";
 
         echo "<pre>";
 
-        echo($this->rutasPOST);
+        echo(var_dump($this->rutasPOST));
 
         echo "</pre>";
 
