@@ -24,7 +24,7 @@ class Router {
         $rutas_protegidas = ['/admin', '/propiedades/crear', '/propiedades/actualizar', '/propiedades/eliminar', '/vendedores/crear', '/vendedores/actualizar', '/vendedores/eliminar/', '/blog/crear', '/blog/actualizar', '/blog/eliminar'];
 
 
-        $urlActual = $_SERVER['PATH_INFO'] ?? '/';
+        $urlActual = $_SERVER['REQUEST_URI'] ?? '/';
         echoPre($_SERVER);
         $metodo = $_SERVER['REQUEST_METHOD'];
 
