@@ -10,7 +10,9 @@
     ],
     "require": {
         "intervention/image": "^2.7",
-        "phpmailer/phpmailer": "^6.5",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "require-dev": {
         "heroku/heroku-buildpack-php": "^212.0"
     },
     "autoload": {
