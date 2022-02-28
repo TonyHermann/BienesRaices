@@ -2,3 +2,5 @@ node_modules/
 package-lock.json
 node_modules
 /vendor/
+cypress/integratrion/1-getting-started
+cypress/integratrion/2-advanced-examples
