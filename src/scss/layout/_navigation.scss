@@ -2,13 +2,13 @@ nav {
     &.inicio {
         .logo {
             p {
-                color: white;
+                color: black;
             }
         }
         ul {
             li {
                 a {
-                    color: white;
+                    color: black;
                 }
             }
         }
@@ -33,13 +33,13 @@ nav {
             text-decoration: none;
         }
         p {
-            color: black;
+            color: white;
             font-weight: $delgada;
             font-size: 4.5vh;
             margin: 0;
         }
         span {
-            color: black;
+            color: white;
             font-weight: $bold;
         }
     }
