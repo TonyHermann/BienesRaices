@@ -49,13 +49,16 @@
                     <img src="../build/img/dark-mode.svg" class="dark-mode-button" id="moon">
                 </ul>
             </nav>
-            <div class="image">
             <?php 
                 if($inicio) {
-                    echo "<h1 class='titulo' data-cy='header'>Venta de casas y departamentos exclusivos de lujo</h1>";
+                    
+                    ?> 
+                    <div class="image">
+                    <?php echo "<h1 class='titulo' data-cy='header'>Venta de casas y departamentos exclusivos de lujo</h1>"; ?>
+                    </div> <?php
                 };
-                ?>
-            </div>
+            ?>
+            
     </header>
 
     
