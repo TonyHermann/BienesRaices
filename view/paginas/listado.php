@@ -1,4 +1,4 @@
-<div class="contenedor__anuncios">
+<div class="contenedor__anuncios <?php echo $inicio ? 'inicio':  '' ?>" id="contenedor__anuncios">
 
 
         <?php  foreach ($propiedades as $propiedad) : ?>

@@ -1,4 +1,20 @@
 nav {
+    &.inicio {
+        .logo {
+            p {
+                color: white;
+            }
+        }
+        ul {
+            li {
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+nav {
     display: flex;
     margin-left: 4vh;
     justify-content:flex-start;

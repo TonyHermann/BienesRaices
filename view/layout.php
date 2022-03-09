@@ -29,7 +29,7 @@
 <body class="">
 
     <header class="<?php echo $simpleheader ? 'simpleheader' : '' ?> <?php echo $inicio ? 'inicio' : ''; ?> ">
-            <nav class="<?php echo $simpleheader ? 'dark' : '' ?>">
+            <nav class="<?php echo $simpleheader ? 'dark' : '' ?> <?php echo $inicio ? 'inicio':  '' ?>">
                 <div class="logo">
                     <a href="/">
                         <p>bienes<span>raices</span></p>

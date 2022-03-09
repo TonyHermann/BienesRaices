@@ -85,12 +85,20 @@
     }
 }
 
+
+#contenedor__anuncios {
+    &.inicio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
 .contenedor__anuncios {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
+    
+    @include grid(3, 3rem);
     @include telefono {
         display: flex;
         flex-direction: column;
