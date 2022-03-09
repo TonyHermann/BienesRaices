@@ -7,6 +7,9 @@
 }
 
 .contacto {
+    margin: auto;
+    border-radius: 3.4vh;
+    width: 95%;
     background-position: center center;
     background-size: cover;
     padding: $separacion 0;
@@ -16,9 +19,11 @@
     h2 { 
         color: $blanco;
         font-weight: $bold;
+        font-size: 3.2vh;
     }
     p {
         color: $blanco;
+        font-size: 2vh;
     }
 }
 

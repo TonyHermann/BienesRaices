@@ -1,20 +1,22 @@
 .anuncio {
+    margin-left: 5vh;
+    margin-right: 5vh;
     display: flex;
     flex-direction: column;
-    width: 40rem;
+    width: 40vh;
     border: none;
-    border-radius: 1rem;
+    border-radius: 1vh;
     picture {
         //max-width: 40rem;
         img {
-            width: 40rem;
-            height: 30rem;
+            width: 40vh;
+            height: 30vh;
             object-fit: cover;
             @include telefono {
                 object-fit: cover;
             }
             border: none;
-            border-radius: 1rem;
+            border-radius: 1vh;
         }
     }
     background-color: $blanco;
@@ -22,12 +24,13 @@
 
 .contenido__anuncio {
     display: grid;
-    padding: 1rem;
+    padding: 1vh;
     height: auto;
     h3 {
-        padding: 1rem;
-        margin: 1rem;
+        padding: 1vh;
+        margin: 1vh;
         font-weight: $regular;
+        text-align: center;
     }
     p {
         margin: 0;
@@ -39,18 +42,22 @@
             min-width: auto;
             min-height: unset;
             max-height: unset;
-            margin: 1rem;
+            margin: 1vh;
         }
+        font-size: 1.5vh;
+        color: gray;
         text-align: center;
         min-width: auto;
         min-height: 252px;
         max-height: 252px;
         overflow: scroll;
-        margin: 1rem;
+        margin: 1vh;
+        overflow-x: hidden;
     }
     .precio {
         color: $verde;
-        font-size: 3rem;
+        font-size: 3vh;
+        text-align: center;
     }
 }
 
@@ -79,7 +86,11 @@
 }
 
 .contenedor__anuncios {
-    @include grid(3, 3rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
     @include telefono {
         display: flex;
         flex-direction: column;

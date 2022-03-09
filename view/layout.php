@@ -49,11 +49,13 @@
                     <img src="../build/img/dark-mode.svg" class="dark-mode-button" id="moon">
                 </ul>
             </nav>
+            <div class="image">
             <?php 
                 if($inicio) {
                     echo "<h1 class='titulo' data-cy='header'>Venta de casas y departamentos exclusivos de lujo</h1>";
                 };
-            ?>
+                ?>
+            </div>
     </header>
 
     
@@ -78,5 +80,5 @@
     </footer>
     <script src="../build/js/bundle.min.js"></script>
 </body>
-
+blanco
 </html>

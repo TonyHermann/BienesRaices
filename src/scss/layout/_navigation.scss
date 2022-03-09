@@ -1,6 +1,8 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    margin-left: 4vh;
+    justify-content:flex-start;
+
     @include tablet {
         flex-direction: column;
         justify-content: center;
@@ -15,13 +17,13 @@ nav {
             text-decoration: none;
         }
         p {
-            color: $blanco;
+            color: black;
             font-weight: $delgada;
-            font-size: 4.5rem;
+            font-size: 4.5vh;
             margin: 0;
         }
         span {
-            color: $blanco;
+            color: black;
             font-weight: $bold;
         }
     }
@@ -29,15 +31,16 @@ nav {
     ul {
         margin: 0;
         display: flex;
-        padding: 1rem;
+        padding: 1vh;
         justify-content: center;
         align-items: center;
         li {
-            margin: 1rem;
+            margin: 1vh;
             list-style: none;
             a {
                 text-decoration: none;
-                color: $blanco;
+                font-size: 2vh;
+                color: black;
                 &:hover {
                     color: $verde;
                 }
@@ -55,14 +58,14 @@ nav {
 }
 
 .dark-mode-button {
-    width: 4.5rem;
-    margin-left: 1rem;
-    filter: invert(100%);
+    width: 4.5vh;
+    margin-left: 1vh;
+    right: 0;
 }
 
 .mobile-menu {
     display: none;
-    max-width: 4rem;
+    max-width: 4vh;
 }
 
 nav {
@@ -85,5 +88,5 @@ nav {
     transition: all 0.5s;
     transform: translateY(20rem); 
     background-color: rgba(44, 43, 43, 0.644);
-    border-radius: 2rem;
+    border-radius: 2vh;
 }

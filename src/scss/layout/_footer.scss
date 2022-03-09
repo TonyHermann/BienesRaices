@@ -1,4 +1,7 @@
 footer {
+    width: 95%;
+    margin: auto;
+    border-radius: 3.4vh;
     background-color: $grisOscuro;
     display: flex;
     flex-direction: column;
@@ -6,7 +9,7 @@ footer {
     margin-top: 5rem;
     p {
         margin-bottom: 3rem;
-        color: $blanco;
+        color: $blanco!important;
     }
     @include telefono {
         ul {

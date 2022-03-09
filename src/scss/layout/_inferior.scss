@@ -19,14 +19,26 @@
         display: flex;
         flex-direction: column;
     }
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 1.5vh;
     display: grid;
+    width: 80vh;
     grid-template-columns: 1fr 2fr;
-    column-gap: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    column-gap: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     picture {
-        max-width: 80rem;
+        max-width: 80vh;
         cursor: pointer;
+    
+    }
+    .imagen {
+        picture {
+            img {
+                border-radius: 1.5vh;
+            }
+        }
     }
     .texto-entrada {
         h4, p, span, a {
@@ -40,14 +52,17 @@
             &::after {
                 content: '';
                 display: block;
-                width: 15rem;
-                height: 0.5rem;
+                width: 15vh;
+                height: 0.5vh;
                 background-color: $verde;
             }
         }
         span {
             color: $amarillo;
             cursor: pointer; 
+        }
+        p {
+            font-size: 2.5vh;
         }
     }
 }

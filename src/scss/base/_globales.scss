@@ -14,12 +14,10 @@ p {
     color: $negro;
     font-size: 2rem;
 }
+
 .contenedor {
     width: 95%;
-    max-width: 120rem;
-    margin: 0 auto;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
+    margin: auto;
 }
 
 .seccion {
@@ -44,20 +42,19 @@ h1, h2, h3 {
     font-family: $fuente_principal;
     margin: $separacion;
     font-weight: 300;
-    text-align: center;
     
 }
 
 h1 {
-    font-size: 3.8rem;
+    font-size: 3.8vh;
 }
 h2 {
-    font-size: 3.4rem;
+    font-size: 3.4vh;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 3vh;
 }
 h4 {
-    font-size: 2.6rem;
+    font-size: 2.6vh;
 }
 

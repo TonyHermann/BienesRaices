@@ -5,17 +5,20 @@
     color: $blanco;
     font-size: 2rem;
     padding: 2rem;
+    height: 60vh;
+    width: 50vh;
     blockquote {
-        padding-left: 5rem;
+        padding-left: 10vh;
         position: relative;
+        font-size: 2.8vh;
         &::before {
             position: absolute;
-            transform: translateX(-8rem);
+            transform: translateX(-8vh);
             content: '';
             background-image: url(../img/comilla.svg);
             background-repeat: no-repeat;
-            height: 8rem;
-            width: 6rem;
+            height: 8vh;
+            width: 6vh;
             display: block;
         }
     }
@@ -23,5 +26,6 @@
         color: $blanco;
         text-align: right;
         font-style: italic;
+        font-size: 2.8vh;
     }
 }

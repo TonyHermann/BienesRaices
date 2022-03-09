@@ -1,4 +1,4 @@
-<main class="contenedor">
+<main class="">
     <h2>Más sobre nosotros</h2>
     <div class="cards contenedor" data-cy="iconos-nosotros" >
         <div class="card">
@@ -37,7 +37,7 @@
     </div>
 </main>
 
-<section class="contenedor">
+<section class="contenedor contenedor_propiedades">
     <h2>Casas y Departamentos en venta</h2>
     
     <?php include 'listado.php'; ?>
