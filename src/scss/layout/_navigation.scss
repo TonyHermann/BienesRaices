@@ -1,7 +1,7 @@
 nav {
     &.inicio {
         .logo {
-            p {
+            p, span {
                 color: black;
             }
         }
@@ -56,7 +56,7 @@ nav {
             a {
                 text-decoration: none;
                 font-size: 2vh;
-                color: black;
+                color: white;
                 &:hover {
                     color: $verde;
                 }
