@@ -41,7 +41,6 @@
     <h2>Casas y Departamentos en venta</h2>
     
     <?php include 'listado.php'; ?>
-
 </section>
 
 <section class="seccion contacto" data-cy="seccion-contacto" >

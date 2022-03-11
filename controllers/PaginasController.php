@@ -100,9 +100,9 @@ class PaginasController
             $mail->isSMTP();
             $mail->Host = 'smtp.mailtrap.io';
             $mail->SMTPAuth = true;
-            $mail->Username = 'e1ca171c0cccbf';
-            $mail->Password = '44366c928b2933';
-            $mail->Port = 2525;
+            $mail->Username = 'x';
+            $mail->Password = 'x';
+            $mail->Port = 4444;
 
             $mail->setFrom('admin@bienesraices.com');
             $mail->addAddress('admin@bienesraices.com', 'ContactoBienesRaices.com');
